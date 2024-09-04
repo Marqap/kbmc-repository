@@ -1,0 +1,17 @@
+<addon id="repository.kbmc" name="KBMC Repository" version="1.0">
+    <extension point="xbmc.addon.repository" name="KBMC Repository">
+        <dir>
+            <info compressed="false">https://github.com/Marqap/kbmc-repository/addon.xml</info>
+            <checksum>https://github.com/Marqap/kbmc-repository/addon.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Marqap/kbmc-repository/</datadir>
+        </dir>
+        <info compressed="false">https://github.com/Marqap/kbmc-repository/addon.xml</info>
+        <checksum>https://github.com/Marqap/kbmc-repository/addon.xml.md5</checksum>
+        <datadir zip="true">https://github.com/Marqap/kbmc-repository/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>KBMC Repository</summary>
+        <description>This is the official KBMC repository for KBMC add-ons.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
